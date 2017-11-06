@@ -8,8 +8,12 @@ namespace Zvierata
 {
     class Pes
     {
+
+
         public Pes()
         {
+            
+
 
         }
     }

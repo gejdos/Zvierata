@@ -8,6 +8,13 @@ namespace Zvierata
 {
     class Zviera
     {
+
+        protected string rasa, farba;
+        protected int vek;
+        protected float vaha;
+        private bool velke;
+        
+
         public Zviera()
         {
 
