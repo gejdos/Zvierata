@@ -14,13 +14,13 @@ namespace Zvierata
 
         public new void VypisVlastnosti()
         {
-            Console.WriteLine("Pes ma tieto vlastnosti:\nrasa: {0}, farba: {1}, vek: {2}, vaha: {3} a informacia, ci je pes strazny: {4}\n",
+            Console.WriteLine("Pes ma tieto vlastnosti:\nrasa: {0}\nfarba: {1}\nvek: {2} r\nvaha: {3} kg\ninformacia, ci je pes strazny: {4}\n",
                 rasa, farba, vek, vaha, strazny);
         }
 
         public new void VydajZvuk()
         {
-            Console.WriteLine("Zvuk psa:\nHAU.\n");
+            Console.WriteLine("Zvuk psa:\nHAU!\n");
         }
     }
 }

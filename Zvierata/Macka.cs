@@ -14,13 +14,13 @@ namespace Zvierata
 
         public new void VypisVlastnosti()
         {
-            Console.WriteLine("Macka ma tieto vlastnosti:\nrasa: {0}, farba: {1}, vek: {2}, vaha: {3} a oblubene jedlo: {4}\n",
+            Console.WriteLine("Macka ma tieto vlastnosti:\nrasa: {0}\nfarba: {1}\nvek: {2} r\nvaha: {3} kg\noblubene jedlo: {4}\n",
                 rasa, farba, vek, vaha, oblubeneJedlo);
         }
 
         public new void VydajZvuk()
         {
-            Console.WriteLine("Zvuk macky:\nMNAU.\n");
+            Console.WriteLine("Zvuk macky:\nMNAU!\n");
         }
     }
 }

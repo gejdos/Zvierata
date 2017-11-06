@@ -22,13 +22,13 @@ namespace Zvierata
 
         public void VypisVlastnosti()
         {
-            Console.WriteLine("Zviera ma tieto vlastnosti:\nrasa: {0}, farba: {1}, vek: {2}, vaha: {3}, zviera je velke: {4} a pocet noh: {5}\n",
+            Console.WriteLine("Zviera ma tieto vlastnosti:\nrasa: {0}\nfarba: {1}\nvek: {2}\nvaha: {3}\nzviera je velke: {4}\npocet noh: {5}\n",
                 rasa, farba, vek, vaha, velke, pocetNoh);
         }
 
         public void VydajZvuk()
         {
-            Console.WriteLine("Toto je vseobecny zvuk zvierata.\n");
+            Console.WriteLine("Zvuk zvierata:\nToto je vseobecny zvuk zvierata.\n");
         }
     }
 }
